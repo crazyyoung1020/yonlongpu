@@ -20,10 +20,15 @@ var indexObj = {
             var id = $(this).data('id')
             location.href="xiangqing.html?id="+id
         })
+        // $('#box,#img-box,#img-box2').on('click','li>div', $.proxy(this.clickfunction,this))
     },
+    // clickfunction:function(){
+    //     var id = $(this).data('id')
+    //     location.href="xiangqing.html?id="+id
+    // },
     query: function () {
         $.ajax({
-            url: 'file:///Users/yangfeng/git/yonlongpu/json/index.json',
+            url: 'http://localhost/yonlongpu/json/index.json',
             data: {},
             dataType: 'json',
             type: 'post',

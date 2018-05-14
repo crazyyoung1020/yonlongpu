@@ -58,7 +58,7 @@ $.extend(Login.prototype,{
         // console.log(username, Password)
         $.ajax({
             type:"post",
-            url:"http://localhost/yonglongpu/php/login.php",
+            url:"http://localhost/yonlongpu/php/login.php",
             // url:"js/register.jspn",
             dataType:"json",
             data:{
@@ -67,8 +67,11 @@ $.extend(Login.prototype,{
             },
          
             success:function(data){
-                console.log(data)
-                alert("登录成功")
+                if(data == 6){
+                    alert("登陆成功")
+                }else {
+                    alert(data)
+                }
             },
             error:function(){
                 alert("接口异常")

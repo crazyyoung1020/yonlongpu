@@ -63,7 +63,7 @@ $.extend(Register.prototype,{
         console.log(username,password)
         $.ajax({
             type:"post",
-            url:"http://localhost/yonglongpu/php/register.php",
+            url:"http://localhost/yonlongpu/php/register.php",
             // url:"http://localhost/yonglongpu/json/register.json",
             dataType:"json",
             data:{

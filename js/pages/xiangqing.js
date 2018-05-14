@@ -72,7 +72,7 @@ var xiangqing = {
         })
         $('#addCart').on('click',function(){
             var shopList = window.localStorage.getItem('shopList')?window.localStorage.getItem('shopList'):[];
-            shopList = JSON.parse(shopList)
+            if(shopList.length){shopList = JSON.parse(shopList)} 
             var num = $('#quantity').val()
             shopList.push({id:id,num:num})
             shopList = JSON.stringify(shopList)

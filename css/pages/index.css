@@ -280,10 +280,10 @@
     width:243px;
     height:290px;
     overflow:hidden;
-    transition:all 0.6s;
+    transition:all linear 0.3s;
 }
 .list .img1:hover{
-    transform:scale(1.2);
+    transform:scale(1.05);
 }
 .list ul{
     float:left;
@@ -307,10 +307,10 @@
 .list ul li img{
     width:229px;
     height:220px;
-    transition:all 1s;
+    transition:all linear 0.3s;
 }
 .img:hover{
-    transform:scale(1.1);
+    transform:scale(1.05);
 }
 .list ul li a{
     width:230px;
@@ -375,11 +375,11 @@
 .list2 #img-box li .imgbox2 .img{
     width:229px;
     height:220px;
-    transition:all 1s;
+    transition:all linear 0.3s;
     overflow:hidden;
 }
 .list2 #img-box li .imgbox2 .img:hover{
-    transform:scale(1.1);
+    transform:scale(1.05);
 }
 .list2 #img-box li a{
     width:230px;
@@ -444,10 +444,10 @@
 .list3 #img-box2 li .imgbox3 .img{
     width:229px;
     height:220px;
-    transition:all 1s;
+    transition:all linear 0.3s;
 }
 .list3 #img-box2 li .imgbox3 .img:hover{
-    transform:scale(1.1);
+    transform:scale(1.05);
 }
 .list3 #img-box2 li a{
     width:230px;

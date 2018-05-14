@@ -25,18 +25,18 @@
     $n = mysqli_num_rows($res);
 
     if(!$n){
-		echo "<script>alert('用户名不存在')</script>";
+		echo "用户名不存在";
 	}else{
 		while($arr = mysqli_fetch_assoc($res)){
 			if($arr["upwd"] == $upwd){
-				echo "<script>alert('登录成功');</script>";
+				echo "6";
 				$bStop = false;
 				break;
 			}
 		}
 
 		if($bStop){
-			echo "<script>alert('密码错误');location.href='login.html'</script>";
+			echo "密码错误";
 		}
 	}
 
