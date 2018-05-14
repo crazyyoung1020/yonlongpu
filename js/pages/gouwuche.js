@@ -4,7 +4,10 @@ var gouwucheObj = {
         this.domEvent();
     },
     domEvent:function(){
-
+        $('#shop tbody .remove').on('click',function(){
+            id = $(this).siblings('input').val()
+            $(this).parent().remove()
+        })
     },
     query:function(){
         var shopList = window.localStorage.getItem('shopList')
@@ -26,7 +29,8 @@ var gouwucheObj = {
                 <td>${obj[id-1].discount}</td>
                 <td>${shopList[i].num}</td>
                 <td>${totle}</td>
-                <td></td>
+                <td class="remove"></td>
+                <input type="hidden value="${id}"/>
             </tr>
             `
         }
