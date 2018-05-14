@@ -1,0 +1,106 @@
+#key-wrap{
+    height:66px;
+    background:#efefef;
+    border-top:1px solid #e5e5e5;
+}
+.key{
+    height:65px;
+    line-height:65px;
+    font-size:12px;
+}
+/* list-wrap部分 */
+#list-wrap{
+    background:#efefef;   
+}
+.list{
+    overflow:hidden;
+}
+.list #left{
+    width:942px;
+    overflow:hidden;
+    float:left;
+    background:#fff;
+}
+.list #left #content{
+    height:526px;
+    width:395px;
+    position:relative;
+    float:left;
+}
+.list #left #content #box{
+    width:380px;
+    height:380px;
+    position:relative;
+    margin:30px 0 16px 14px;
+    float:left;
+}
+#box .middle{
+    width:380px;
+    height:380px;
+}
+#box #filter{
+    width:190px;
+    height:190px;
+    background:#000;
+    opacity:0.5;
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+#small{
+    width:60px;
+    height:60px;
+    border:2px solid #ff6600;
+    margin-left:174px;
+    position:absolute;
+    bottom:30px;
+
+}
+#small .small{
+    width:50px;
+    height:50px;
+    margin:3px 3px;
+}
+#maximg{
+    width:380px;
+    height:380px;
+    position:absolute;
+    overflow:hidden;
+    margin-left:400px;
+    margin-top:30px;
+    display:none;
+    float:left;
+}
+#maximg .max{
+    width:760px;
+    height:760px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.list #right{
+    width:241px;
+    float:right;
+    background:#fff;
+}
+#details{
+    height:466px;
+    width:506px;
+    float:right;
+    padding:10px 10px 10px 0;
+}
+#cart{
+    width:498px;
+    height:163px;
+    border:1px solid #ffdfdf;
+    background:#fffcfc;
+    padding:16px 7px;
+    box-sizing:border-box;
+}
+#cart .numbox input{
+    width:26px;
+    height:20px;
+    border:1px solid #a9a9a9;
+}

@@ -1,0 +1,13 @@
+#chart-wrap{
+    background:#efefef;
+    border-top:1px solid #e5e5e5;
+}
+.chart img{
+    height:68px;
+    margin:10px 0;
+}
+.tip{
+    background:#fff;
+    height:80px;
+}
+
